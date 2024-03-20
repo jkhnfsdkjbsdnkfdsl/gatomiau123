@@ -1,4 +1,4 @@
-name: WindowsOptimal-V2
+name: WindowsOptimal-V2.1
 
 on:
   workflow_dispatch:
@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Downloading & Installing Essentials
         run: |
-          Invoke-WebRequest -Uri "https://cdn.discordapp.com/attachments/1201270076909834270/1219800666990710794/Downloads.bat?ex=660c9ee5&is=65fa29e5&hm=f820908b20ebb72cf302b312bb83de5f1620d016e923b4aa84db3105f338ad02&" -OutFile "Downloads.bat"
+          Invoke-WebRequest -Uri "https://cdn.discordapp.com/attachments/1201270076909834270/1219803058624532590/Downloads.bat?ex=660ca120&is=65fa2c20&hm=0ee7e6f1ef3fecbf35005460e907d003c3f0a9d50b082a11663e0863bde2ea90&" -OutFile "Downloads.bat"
           cmd /c Downloads.bat
 
       - name: Log In To AnyDesk
