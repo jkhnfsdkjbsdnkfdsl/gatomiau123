@@ -1,4 +1,4 @@
-name: WindowsOptimal - RustDesk
+name: WindowsOptimal-V2
 
 on:
   workflow_dispatch:
@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Downloading & Installing Essentials
         run: |
-          Invoke-WebRequest -Uri "https://cdn.discordapp.com/attachments/1201270076909834270/1219798610259083364/Downloads.bat?ex=660c9cfb&is=65fa27fb&hm=7a0bd7196969fad5730b0057310100be0919028004419a04d1cf894fde4dcd07&" -OutFile "Downloads.bat"
+          Invoke-WebRequest -Uri "https://cdn.discordapp.com/attachments/1201270076909834270/1219800666990710794/Downloads.bat?ex=660c9ee5&is=65fa29e5&hm=f820908b20ebb72cf302b312bb83de5f1620d016e923b4aa84db3105f338ad02&" -OutFile "Downloads.bat"
           cmd /c Downloads.bat
 
       - name: Log In To AnyDesk
